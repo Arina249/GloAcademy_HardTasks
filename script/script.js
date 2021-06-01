@@ -31,20 +31,20 @@ let lang = 'ru';
 
 if(lang === 'ru'){
     array = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб','вс'];
-    console.log(array);
+    console.log('Дни недели: ' + array);
 }else if(lang === 'en'){
     array = ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'];
-    console.log(array);
+    console.log('Days of the week: ' + array);
 }
 
 switch(lang) {
     case 'ru':
         array = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб','вс'];
-        console.log(array);
+        console.log('Дни недели: ' + array);
         break;
     case 'en':
         array = ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'];
-        console.log(array);
+        console.log('Days of the week: ' + array);
         break;   
 }
 
@@ -53,7 +53,7 @@ array = [];
 array['ru'] = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб','вс'];
 array['en'] = ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'];
 lang = 'ru';
-console.log(array[lang]);
+console.log('Дни недели: ' + array[lang]);
 
 
 let namePerson = 'Артем';
